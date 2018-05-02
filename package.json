@@ -1,0 +1,32 @@
+{
+  "name": "lambda-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahbule/lambda-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micahbule/lambda-graphql/issues"
+  },
+  "homepage": "https://github.com/micahbule/lambda-graphql#readme",
+  "description": "",
+  "dependencies": {
+    "aws-serverless-express": "^3.2.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0",
+    "sequelize-cockroachdb": "^1.0.3",
+    "winston": "^2.4.2"
+  }
+}

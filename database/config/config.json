@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "lambdaroot",
+    "password": null,
+    "database": "lambql",
+    "host": "127.0.0.1",
+    "port": "26257",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "lambdaroot",
+    "password": null,
+    "database": "lambql",
+    "host": "ec2-52-221-190-131.ap-southeast-1.compute.amazonaws.com",
+    "port": "26257",
+    "dialect": "postgres"
+  }
+}
